@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40F45BCE27994B3700A52F58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F45BCD27994B3700A52F58 /* AppDelegate.swift */; };
+		40F45BD027994B3700A52F58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F45BCF27994B3700A52F58 /* SceneDelegate.swift */; };
+		40F45BD227994B3700A52F58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F45BD127994B3700A52F58 /* ViewController.swift */; };
+		40F45BD527994B3700A52F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F45BD327994B3700A52F58 /* Main.storyboard */; };
+		40F45BD727994B3800A52F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F45BD627994B3800A52F58 /* Assets.xcassets */; };
+		40F45BDA27994B3800A52F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F45BD827994B3800A52F58 /* LaunchScreen.storyboard */; };
+		40F45BF827994B7100A52F58 /* PublicDb.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40F45BE227994B7100A52F58 /* PublicDb.plist */; };
+		40F45BF927994B7100A52F58 /* ChatMsgGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F45BE327994B7100A52F58 /* ChatMsgGradient.swift */; };
+		40F45BFA27994B7100A52F58 /* AthDbTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F45BE527994B7100A52F58 /* AthDbTool.m */; };
+		40F45BFB27994B7100A52F58 /* ChatMessageDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F45BE627994B7100A52F58 /* ChatMessageDB.swift */; };
+		40F45BFC27994B7100A52F58 /* AthDb.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40F45BE827994B7100A52F58 /* AthDb.plist */; };
+		40F45BFD27994B7100A52F58 /* AthUserDbManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F45BE927994B7100A52F58 /* AthUserDbManager.m */; };
+		40F45BFE27994B7100A52F58 /* AthDbManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F45BEA27994B7100A52F58 /* AthDbManager.m */; };
+		40F45BFF27994B7100A52F58 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F45BED27994B7100A52F58 /* FMDatabaseQueue.m */; };
+		40F45C0027994B7100A52F58 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F45BF027994B7100A52F58 /* FMDatabaseAdditions.m */; };
+		40F45C0127994B7100A52F58 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F45BF127994B7100A52F58 /* FMDatabase.m */; };
+		40F45C0227994B7100A52F58 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F45BF527994B7100A52F58 /* FMDatabasePool.m */; };
+		40F45C0327994B7100A52F58 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F45BF627994B7100A52F58 /* FMResultSet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40F45BCA27994B3700A52F58 /* HZLDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZLDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F45BCD27994B3700A52F58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40F45BCF27994B3700A52F58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		40F45BD127994B3700A52F58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40F45BD427994B3700A52F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40F45BD627994B3800A52F58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40F45BD927994B3800A52F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40F45BDB27994B3800A52F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F45BE227994B7100A52F58 /* PublicDb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PublicDb.plist; sourceTree = "<group>"; };
+		40F45BE327994B7100A52F58 /* ChatMsgGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMsgGradient.swift; sourceTree = "<group>"; };
+		40F45BE427994B7100A52F58 /* AthUserDbManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AthUserDbManager.h; sourceTree = "<group>"; };
+		40F45BE527994B7100A52F58 /* AthDbTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AthDbTool.m; sourceTree = "<group>"; };
+		40F45BE627994B7100A52F58 /* ChatMessageDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageDB.swift; sourceTree = "<group>"; };
+		40F45BE727994B7100A52F58 /* AthDbManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AthDbManager.h; sourceTree = "<group>"; };
+		40F45BE827994B7100A52F58 /* AthDb.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AthDb.plist; sourceTree = "<group>"; };
+		40F45BE927994B7100A52F58 /* AthUserDbManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AthUserDbManager.m; sourceTree = "<group>"; };
+		40F45BEA27994B7100A52F58 /* AthDbManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AthDbManager.m; sourceTree = "<group>"; };
+		40F45BEC27994B7100A52F58 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		40F45BED27994B7100A52F58 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		40F45BEE27994B7100A52F58 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		40F45BEF27994B7100A52F58 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		40F45BF027994B7100A52F58 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		40F45BF127994B7100A52F58 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		40F45BF227994B7100A52F58 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		40F45BF327994B7100A52F58 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		40F45BF427994B7100A52F58 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		40F45BF527994B7100A52F58 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		40F45BF627994B7100A52F58 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		40F45BF727994B7100A52F58 /* AthDbTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AthDbTool.h; sourceTree = "<group>"; };
+		40F45C0527994CC000A52F58 /* HZL-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HZL-Bridge-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40F45BC727994B3700A52F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40F45BC127994B3700A52F58 = {
+			isa = PBXGroup;
+			children = (
+				40F45BCC27994B3700A52F58 /* HZLDB */,
+				40F45BCB27994B3700A52F58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40F45BCB27994B3700A52F58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40F45BCA27994B3700A52F58 /* HZLDB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40F45BCC27994B3700A52F58 /* HZLDB */ = {
+			isa = PBXGroup;
+			children = (
+				40F45C0527994CC000A52F58 /* HZL-Bridge-Header.h */,
+				40F45BE127994B7100A52F58 /* DbTool */,
+				40F45BCD27994B3700A52F58 /* AppDelegate.swift */,
+				40F45BCF27994B3700A52F58 /* SceneDelegate.swift */,
+				40F45BD127994B3700A52F58 /* ViewController.swift */,
+				40F45BD327994B3700A52F58 /* Main.storyboard */,
+				40F45BD627994B3800A52F58 /* Assets.xcassets */,
+				40F45BD827994B3800A52F58 /* LaunchScreen.storyboard */,
+				40F45BDB27994B3800A52F58 /* Info.plist */,
+			);
+			path = HZLDB;
+			sourceTree = "<group>";
+		};
+		40F45BE127994B7100A52F58 /* DbTool */ = {
+			isa = PBXGroup;
+			children = (
+				40F45BE227994B7100A52F58 /* PublicDb.plist */,
+				40F45BE327994B7100A52F58 /* ChatMsgGradient.swift */,
+				40F45BF727994B7100A52F58 /* AthDbTool.h */,
+				40F45BE527994B7100A52F58 /* AthDbTool.m */,
+				40F45BE627994B7100A52F58 /* ChatMessageDB.swift */,
+				40F45BE827994B7100A52F58 /* AthDb.plist */,
+				40F45BE427994B7100A52F58 /* AthUserDbManager.h */,
+				40F45BE927994B7100A52F58 /* AthUserDbManager.m */,
+				40F45BE727994B7100A52F58 /* AthDbManager.h */,
+				40F45BEA27994B7100A52F58 /* AthDbManager.m */,
+				40F45BEB27994B7100A52F58 /* fmdb */,
+			);
+			path = DbTool;
+			sourceTree = "<group>";
+		};
+		40F45BEB27994B7100A52F58 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				40F45BEC27994B7100A52F58 /* FMDatabase.h */,
+				40F45BED27994B7100A52F58 /* FMDatabaseQueue.m */,
+				40F45BEE27994B7100A52F58 /* FMResultSet.h */,
+				40F45BEF27994B7100A52F58 /* FMDatabasePool.h */,
+				40F45BF027994B7100A52F58 /* FMDatabaseAdditions.m */,
+				40F45BF127994B7100A52F58 /* FMDatabase.m */,
+				40F45BF227994B7100A52F58 /* FMDatabaseQueue.h */,
+				40F45BF327994B7100A52F58 /* FMDB.h */,
+				40F45BF427994B7100A52F58 /* FMDatabaseAdditions.h */,
+				40F45BF527994B7100A52F58 /* FMDatabasePool.m */,
+				40F45BF627994B7100A52F58 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40F45BC927994B3700A52F58 /* HZLDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F45BDE27994B3800A52F58 /* Build configuration list for PBXNativeTarget "HZLDB" */;
+			buildPhases = (
+				40F45BC627994B3700A52F58 /* Sources */,
+				40F45BC727994B3700A52F58 /* Frameworks */,
+				40F45BC827994B3700A52F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZLDB;
+			productName = HZLDB;
+			productReference = 40F45BCA27994B3700A52F58 /* HZLDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40F45BC227994B3700A52F58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					40F45BC927994B3700A52F58 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 40F45BC527994B3700A52F58 /* Build configuration list for PBXProject "HZLDB" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40F45BC127994B3700A52F58;
+			productRefGroup = 40F45BCB27994B3700A52F58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40F45BC927994B3700A52F58 /* HZLDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40F45BC827994B3700A52F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F45BDA27994B3800A52F58 /* LaunchScreen.storyboard in Resources */,
+				40F45BF827994B7100A52F58 /* PublicDb.plist in Resources */,
+				40F45BFC27994B7100A52F58 /* AthDb.plist in Resources */,
+				40F45BD727994B3800A52F58 /* Assets.xcassets in Resources */,
+				40F45BD527994B3700A52F58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40F45BC627994B3700A52F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F45BD227994B3700A52F58 /* ViewController.swift in Sources */,
+				40F45C0227994B7100A52F58 /* FMDatabasePool.m in Sources */,
+				40F45BFA27994B7100A52F58 /* AthDbTool.m in Sources */,
+				40F45BF927994B7100A52F58 /* ChatMsgGradient.swift in Sources */,
+				40F45BFB27994B7100A52F58 /* ChatMessageDB.swift in Sources */,
+				40F45BFD27994B7100A52F58 /* AthUserDbManager.m in Sources */,
+				40F45C0327994B7100A52F58 /* FMResultSet.m in Sources */,
+				40F45BCE27994B3700A52F58 /* AppDelegate.swift in Sources */,
+				40F45BD027994B3700A52F58 /* SceneDelegate.swift in Sources */,
+				40F45BFE27994B7100A52F58 /* AthDbManager.m in Sources */,
+				40F45BFF27994B7100A52F58 /* FMDatabaseQueue.m in Sources */,
+				40F45C0127994B7100A52F58 /* FMDatabase.m in Sources */,
+				40F45C0027994B7100A52F58 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40F45BD327994B3700A52F58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F45BD427994B3700A52F58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40F45BD827994B3800A52F58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F45BD927994B3800A52F58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40F45BDC27994B3800A52F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40F45BDD27994B3800A52F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40F45BDF27994B3800A52F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NWTCYB2Z2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HZLDB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hzl.com.HZLDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/haozhongliang/Desktop/home/HZLDB/HZLDB/HZL-Bridge-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40F45BE027994B3800A52F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NWTCYB2Z2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HZLDB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hzl.com.HZLDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/haozhongliang/Desktop/home/HZLDB/HZLDB/HZL-Bridge-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40F45BC527994B3700A52F58 /* Build configuration list for PBXProject "HZLDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F45BDC27994B3800A52F58 /* Debug */,
+				40F45BDD27994B3800A52F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F45BDE27994B3800A52F58 /* Build configuration list for PBXNativeTarget "HZLDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F45BDF27994B3800A52F58 /* Debug */,
+				40F45BE027994B3800A52F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40F45BC227994B3700A52F58 /* Project object */;
+}
